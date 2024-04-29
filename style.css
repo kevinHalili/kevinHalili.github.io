@@ -1,0 +1,116 @@
+.bg-class{
+  background-color: #9fc8f0;
+  color: black;
+  overflow-x: hidden;
+
+  section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px ;
+    padding: 100px 20vw;
+  }
+  
+  #me{
+    background-color: rgb(132, 181, 224);
+  }
+
+  .button-icons{
+    font-size: xx-large;
+    display: inline-block;  
+    padding-right: 3rem;
+    padding-top: 5rem;
+  }
+
+}
+
+
+.navbar {
+  position: fixed;
+  background-color:whitesmoke;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.navbar a:hover {
+  color: rgb(196, 189, 189);
+  font-style: italic;
+  text-decoration: none;
+}
+ 
+  .navbar a {
+    float: right;
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 2rem 2.5rem;
+    text-decoration: none;
+    font-family: 'DM Serif Text';
+    font-size: x-large;
+    font-weight: 600;
+  }
+
+  
+  .navbar a:first-child {
+    float: left;
+  }
+
+  .burlywood{
+    background:#9fc8f0;
+  }
+
+  .dark{
+    background:#c5a494 ;
+
+  }
+
+  .curve{
+    position: absolute;
+    height: 225px;
+    width: 100%;
+    bottom: 0;
+  }
+
+  .curve::before {
+    content: '';
+    display :block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    background: #c5a494 ;
+    transform: translate(85%,60%);
+  }
+
+  .curve::after {
+    content: '';
+    display :block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    background-color: #9fc8f0;
+    transform: translate(-4%,40%);
+    z-index: 1;
+  }
+
+  html{scroll-behavior:smooth}
+  
+  .card{
+    font-size: large;
+    width: 70%;
+    padding-top: 3rem;
+    padding-bottom: 10rem;
+  }
+
+
+  .horizontal-line {
+    width: 200%; 
+    height: 1px; 
+    background-color: rgb(132, 181, 224);
+
+}
+
