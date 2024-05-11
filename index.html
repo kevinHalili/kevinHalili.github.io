@@ -22,6 +22,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/d6a73f6495.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body class="bg-class">
     <div id="navbar" class="navbar-fixed-top nav">
@@ -30,11 +34,14 @@
           <a href="#me">About me</a>
         </li>
         <li>
-          <a href="#projects">Work</a>
+          <a href="#skills">Skills</a>
         </li>
         <li>
-          <a href="#contact-me">Contact</a>
+          <a href="#projects">Work</a>
         </li>
+        <!-- <li>
+          <a href="#contact-me">Contact</a>
+        </li> -->
       </ul>
     </div>
 
@@ -47,18 +54,21 @@
         <div class="flip-card-inner">
           <div class="flip-card-front"></div>
           <div class="flip-card-back">
-            <p class="flip-card-content">
-              I fell in love with tech in general since my early years and
-              making it more concrete at 16 when I first started learning
-              programming and started involving myself with small personal
-              projects. Since then while pursuing a degree in Computer Engineer
-              I caught an opportunity to start working in the industry and have
-              been working as a Software Engineer for the past 2.5 years
-              involving myself with a large number of technologies and project
-              wich will be listed in the work section. Beside work in my
-              everyday life I listen to music, spend time with loved ones. I
-              enjoy cinematography and sometimes I code for fun.
-            </p>
+            <div class="overlay">
+              <p class="flip-card-content">
+                I fell in love with tech in general since my early years and
+                making it more concrete at 16 when I first started learning
+                programming and started involving myself with small personal
+                projects. Since then while pursuing a degree in Computer
+                Engineer I caught an opportunity to start working in the
+                industry and have been working as a Software Engineer for the
+                past 2.5 years involving myself with a large number of
+                technologies and project wich will be listed in the work
+                section. Beside work in my everyday life I listen to music,
+                spend time with loved ones. I enjoy cinematography and sometimes
+                I code for fun.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -73,26 +83,31 @@
         consequatur sunt sed.
       </p>
     </section>
-
-    <section id="contact-me">
-      <h1>Contact me</h1>
+    <section id="skills"></section>
+    <div class="navbar-fixed-bottom" id="contact-me">
       <div class="centered">
-        <div class="button-icons">
-          <div class="icon">
-            <i class="fa fa-github"></i>
+        <a href="https://github.com/kevinHalili">
+          <div class="button-icons">
+            <div class="icon">
+              <i class="fa fa-github"></i>
+            </div></div
+        ></a>
+        <a href="https://www.linkedin.com/in/kevin-halili-0a77b61b2">
+          <div class="button-icons">
+            <div class="icon">
+              <i class="fa fa-linkedin"></i>
+            </div>
           </div>
-        </div>
-        <div class="button-icons">
-          <div class="icon">
-            <i class="fa fa-linkedin"></i>
+        </a>
+        <a href="mailto:kevin_halili@outlook.com">
+          <div class="button-icons">
+            <div class="icon">
+              <i class="fa fa-envelope"></i>
+            </div>
           </div>
-        </div>
-        <div class="button-icons">
-          <div class="icon">
-            <i class="fa fa-envelope"></i>
-          </div>
-        </div>
+        </a>
+        <p class="cp-right">&copy; Copyright Kevin Halili</p>
       </div>
-    </section>
+    </div>
   </body>
 </html>
