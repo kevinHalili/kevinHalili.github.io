@@ -135,12 +135,13 @@ section h1 {
   top: 0;
   left: 0;
   width: 100%;
-  background: linear-gradient(to bottom, #1d1c1c, #000000);
+  background: linear-gradient(to bottom, #9a9aca, #000000);
   box-shadow: 100 2px 0 rgba(0, 0, 0, 0.4);
   z-index: 100;
 }
 
 .nav-list {
+  list-style: none;
   display: flex;
   margin-right: 2rem;
 }
@@ -184,8 +185,9 @@ section h1 {
 }
 
 .flip-card {
+  padding: 5%;
   background-color: transparent;
-  height: 40%;
+  height: 22vw;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -212,15 +214,16 @@ section h1 {
   backface-visibility: hidden;
 }
 
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  background-color: transparent;
-  color: black;
-}
-
 /* Style the back side */
 .flip-card-back {
-  background-color: rgba(132, 181, 224, 1);
-  color: white;
+  background-color: transparent;
+  color: black;
   transform: rotateY(180deg);
+}
+
+.flip-card-content {
+  padding: 1.5vw;
+  font-size: x-large;
+  font-weight: 600;
+  font-style: italic;
 }
