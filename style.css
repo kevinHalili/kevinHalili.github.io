@@ -28,12 +28,12 @@ section::after {
 }
 section h1 {
   color: #ffffff;
-  font: normal 300 64px/1 "Josefin Sans", sans-serif;
+  font: normal 500 64px/1 "Josefin Sans", sans-serif;
   text-align: center;
   white-space: nowrap;
 }
 
-.section a {
+/* .section a {
   position: absolute;
   bottom: 20px;
   left: 50%;
@@ -48,7 +48,7 @@ section h1 {
 }
 .section a:hover {
   opacity: 0.5;
-}
+} */
 
 #me {
   padding-top: 16vh;
@@ -80,17 +80,7 @@ section h1 {
   width: 100%;
   font-weight: 700;
   background: transparent;
-  /* 
-  background: linear-gradient(
-    21deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(132, 181, 224, 1) 76%,
-    rgba(132, 181, 224, 1) 100%
-  ); */
-}
-#contact-me h1 {
-  text-align: center;
-  font: normal 600 5vh/1 "Josefin Sans", sans-serif;
+  backdrop-filter: blur(10px);
 }
 
 #skills {
@@ -101,6 +91,10 @@ section h1 {
     rgba(132, 181, 224, 1) 76%,
     rgba(132, 181, 224, 1) 100%
   );
+  h2 {
+    font-weight: 600;
+    color: white;
+  }
 }
 
 .container {
@@ -264,4 +258,32 @@ section h1 {
 
 .icon {
   color: white;
+}
+
+.icon-skill {
+  margin-right: 2rem;
+}
+.c-sharp-pretend-icon {
+  height: 10rem;
+  width: 10rem;
+}
+
+.fa {
+  transition: 0.1s ease-in-out;
+}
+
+.fa:hover {
+  font-size: 5rem;
+}
+.fa-github:hover {
+  color: #000000;
+}
+
+.fa-linkedin:hover {
+  color: #0043fa;
+}
+
+.icon-skill {
+  margin-left: 2rem;
+  margin-bottom: 2rem;
 }
